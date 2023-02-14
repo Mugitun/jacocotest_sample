@@ -46,7 +46,7 @@ jobs:
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
       with:
-        token: 1e993cef-f43e-4c5d-abe8-e2bea505d1d6
+        token: 28a57836-ef70-461c-8a4e-cb91b9a8de70
         files: ./build/jacoco.xml
         flags: unittests
         version: "v0.1.15"
