@@ -49,6 +49,5 @@ jobs:
         token: "28a57836-ef70-461c-8a4e-cb91b9a8de70"
         files: ./build/jacoco.xml
         flags: unittests
-        version: "v0.1.15"
         fail_ci_if_error: true
         name: codecov-umbrella
